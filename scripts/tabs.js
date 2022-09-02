@@ -9,6 +9,7 @@ function openTab(tabName) {
     }
 
     document.getElementById(tabName).style.display = "flex";
+    document.getElementById(tabName).scrollIntoView();
 }
 
 
